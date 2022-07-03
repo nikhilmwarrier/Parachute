@@ -148,7 +148,7 @@ Item {
         id: blurBackground
         anchors.fill: parent
         source: desktopBackground
-        radius: 64
+        radius: 32
         visible: desktopBackground.winId !== 0 && mainWindow.configBlurBackground
         cached: true
     }
@@ -291,9 +291,11 @@ Item {
         Rectangle {
             id: desktopsBarBackground
             anchors.fill: parent
-            color: "black"
-            opacity: 0.1
+            color: "#2f343f"
+            opacity: 1
+            radius: 5
             visible: mainWindow.configShowDesktopsBarBackground
+            y: 20
         }
 
         HoverHandler {
