@@ -1,6 +1,10 @@
 # Parachute
 
-## This project is paused. Feel free to fork it if you want to improve it
+## My fork of Parachute, with Arc-Dark colorscheme and less blur and translucency. 
+
+---
+Note: This project was paused by its original author. I am not actively maintaining this either. This is a slightly visually tweaked fork to suit my tastes. Use at your own risk
+---
 
 <p align="center">
   <img src="parachute.svg">
